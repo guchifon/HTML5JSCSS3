@@ -1,101 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'>
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <title>Funcy Exercise</title>
 
+  <link href='css/normalize.css' rel='stylesheet'>
   <!-- Bootstrap -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href='css/bootstrap.css' rel='stylesheet'>
+
+  <link href='css/styles.css' rel='stylesheet'>
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script src='https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js'></script>
+      <script src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js'></script>
     <![endif]-->
-  <link rel="icon" type="image/png" href="assets/favicon.ico">
-  <link rel="stylesheet" href="css/normalize.css">
+  <link rel='icon' type='image/png' href='assets/favicon.ico'>
+  <link rel='stylesheet' href='css/normalize.css'>
 </head>
 
 <body>
-  <div class="container-fluid">
-    <nav class="navbar navbar-default navbar-static-top">
-
-      <div class="container">
-
-        <ul class="nav navbar-nav">
-          <li><a href="#"><span class="glyphicon glyphicon-ice-lolly-tasted" aria-hidden="true">FUNCY</span></a></li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">Funcy</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Where</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Sign In</a></li>
+  <div class="container">
+    <nav class='navbar navbar-default navbar-static-top'>
+      <div  id="nav" >
+        <ul class='nav navbar-nav'>
+          <li><a href='#'><span class='glyphicon glyphicon-ice-lolly-tasted' aria-hidden='true'>FUNCY</span></a></li>
+          <li><a href='#'>Shop</a></li>
+          <li><a href='#'>Funcy</a></li>
+          <li><a href='#'>Pricing</a></li>
+          <li><a href='#'>Where</a></li>
+          <li><a href='#'>Contact</a></li>
+          <li><a href='#'>Sign In</a></li>
         </ul>
       </div>
     </nav>
+
+        
+
+<div id="banner">
+
+    <img width="100%"
+    srcset='assets/images/banner-xs.png 375w, assets/images/banner-sm.png 768w, assets/images/banner-md.png 1024w, assets/images/banner-@2x.png 1536w'
+    src='assets/images/banner-lg.png'>
+
+<!--
+    <picture >
+      <source srcset='assets/images/banner-xs.png 375w, assets/images/banner-sm.png 768w' media='(min-width: 768px)'>
+      <source srcset='assets/images/banner-md.png 1024w, assets/images/banner-@2x.png 1536w' media='(min-width: 992px)'>
+      <img src='assets/images/banner-lg.png'>
+    </picture> 
   </div>
+-->
 
 
-  <div id="banner">
+  <div class="col-lg-12 centered" >
 
-    <!--<picture>
-      <source srcset="assets/images/banner-xs.png 375w, assets/images/banner-sm.png 768w” media=" (min-width: 768px) ">
-      <source srcset="assets/images/banner-md.png 1024w, assets/images/banner-@2x.png 1536w” media="(min-width: 992px)">
-      <img class="image img-responsive" src="assets/images/banner-lg.png">
-    </picture>-->
-
-    <img class="image img-responsive" src="/assets/images/banner-lg.png" srcset="/assets/images/banner-xs.png 375w, /assets/images/banner-sm.png 768w,/assets/images/banner-md.png 1024w, /assets/images/banner-@2x.png 1536w” />
-
-  </div>
-
-
-
-  <!-- Marketing messaging and featurettes
-    ================================================== -->
-  <!-- Wrap the rest of the page in another container to center all the content. -->
-
-  <div class=" container ">
-
-    <!-- Three columns of text below the carousel -->
-    <div class="row ">
-      <div class="col-lg-4 ">
-        <img class="img-circle " src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="
-      Generic placeholder image "
-          width="300 " height="300 ">
+    <div class='row' id="headers">
+      <div class='col-lg-4 '>
+        <img class='img-circle ' src='data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==' alt='
+      Generic placeholder image '
+          width='300 ' height='300 '>
         <p>DLorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
       <!-- /.col-lg-4 -->
-      <div class="col-lg-4 ">
-        <img class="img-circle " src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="
-      Generic placeholder image "
-          width="300 " height="300 ">
+      <div class='col-lg-4 '>
+        <img class='img-circle ' src='data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==' alt='
+      Generic placeholder image '
+          width='300 ' height='300 '>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
       <!-- /.col-lg-4 -->
-      <div class="col-lg-4 ">
-        <img class="img-circle " src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="
-      Generic placeholder image "
-          width="300 " height="300 ">
+      <div class='col-lg-4 '>
+        <img class='img-circle ' src='data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==' alt='
+      Generic placeholder image '
+          width='300 ' height='300 '>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
       </div>
       <!-- /.col-lg-4 -->
     </div>
     <!-- /.row -->
 
-    <footer class="footer ">
+
+    <div class="container">
+      
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+              <div class="col-lg-4">
+               
+                <h2>Heading</h2>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                <p><button type="button" class="btn btn-primary btn-block disabled">BUY NOW!!!</button></p>
+              </div><!-- /.col-lg-4 -->
+              <div class="col-lg-4">
+                <h2>Heading</h2>
+                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                <p><button type="button" class="btn btn-primary btn-block disabled">BUY NOW!!!</button></p>
+              </div><!-- /.col-lg-4 -->
+              <div class="col-lg-4">
+                <h2>Heading</h2>
+                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                <p><button type="button" class="btn btn-primary btn-block disabled">BUY NOW!!!</button></p>
+              </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+    
+    <div class="row">
+            <iframe
+            width="100%"
+            height="500"
+            frameborder="0" style="border:0"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBgl9A7-rOJ-uiwXLg_3_4UEcM89H4Andw&q=40.505130099999995,-3.2524903" allowfullscreen>
+          </iframe>
+    </div><!-- /.row --> 
+   
+
+    
+    <footer class='footer '>
       <p>&copy; 2017 MAC, Inc.</p>
     </footer>
 
-
+  </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js "></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js '></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js "></script>
+    <script src='js/bootstrap.min.js '></script>
 </body>
 
 </html>
