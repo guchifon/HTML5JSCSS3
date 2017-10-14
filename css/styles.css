@@ -1,0 +1,10 @@
+div #headers{
+    padding: 30px;
+    margin: 0px;
+}
+
+div #nav, #banner{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
