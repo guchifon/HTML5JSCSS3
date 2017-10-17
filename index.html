@@ -42,7 +42,8 @@
     .navbar {
       margin-bottom: 0px;
     }
-    .funcy-logo{
+
+    .funcy-logo {
       font-family: 'Varela Round', sans-serif;
       font-size: 1.5em;
     }
@@ -63,18 +64,26 @@
       width: 100%;
     }
 
-    .container #headers p{
+    .container #headers p {
       font-weight: bolder;
       text-align: center;
     }
-    .container #plans h2{
+
+    .container #plans h2 {
       text-align: center;
 
     }
-    .container #headers .col-lg-4{
-      text-align: center;
+
+    .container #headers .col-lg-4 {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
     }
 
+    #submit-button{
+      padding: 15px;
+    }
   </style>
 
 </head>
@@ -159,7 +168,6 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
           </div>
         </div>
-
       </div>
 
       <div class="container">
@@ -223,73 +231,98 @@
       <section id="formulario">
         <div class="container">
           <div class="row">
-            <form class="col-xs-12 col-lg-6 col-lg-offset-3">
-              <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-              </div>
-              <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-              </div>
-              <div class="form-group">
-                <label for="exampleInputFile">File input</label>
-                <input type="file" id="exampleInputFile">
-                <p class="help-block">Example block-level help text here.</p>
-              </div>
-              <div class="checkbox">
-                <label>
-                  <input type="checkbox"> Check me out
-                </label>
-              </div>
-              <div class="checkbox">
-                <label>
-                  <input name="radio" type="radio"> Check me out
-                </label>
-              </div>
-              <div class="checkbox">
-                <label>
-                  <input name="radio" type="radio"> Check me out
-                </label>
-              </div>
-              <div class="checkbox">
-                <label>
-                  <input name="radio" type="radio"> Check me out
-                </label>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+            <div class="col-xs-12">
+              <form class="col-xs-12 col-lg-6 col-lg-offset-3">
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputFile">File input</label>
+                  <input type="file" id="exampleInputFile">
+                  <p class="help-block">Example block-level help text here.</p>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox"> Check me out
+                  </label>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input name="radio" type="radio"> Check me out
+                  </label>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input name="radio" type="radio"> Check me out
+                  </label>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input name="radio" type="radio"> Check me out
+                  </label>
+                </div>
+                <div id="submit-button">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </section>
 
-      <section id="footer"></section>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-              <nav class="navbar navbar-inverse">
-                  <ul class="nav navbar-nav">
+      <section id="footer">
+        <div class="container">
+          <div class="row">
+            <nav class="navbar navbar-inverse">
+              <div class='col-lg-4'>
+                <ul class="nav navbar-nav">
+                  <li>
+                    <a href='#'>
+                      <span class='glyphicon glyphicon-ice-lolly-tasted' aria-hidden='true'>
+                        <span class="funcy-logo">FUNCY</span>
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class='col-lg-2'>
+                <ul>
+                  <li>
+                    <a href="#">Link1</a>
+                  </li>
+                  <li>
+                    <a href="#">Link2</a>
+                  </li>
+                </ul>
+              </div>
+              <div class='col-lg-2'>
+                  <ul>
                     <li>
-                      <a href='#'>
-                          <span class='glyphicon glyphicon-ice-lolly-tasted' aria-hidden='true'>
-                            <span class="funcy-logo">FUNCY</span>
-                          </span>
-                        </a>
+                      <a href="#">Link3</a>
                     </li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
+                    <li>
+                      <a href="#">Link4</a>
+                    </li>
                   </ul>
-                  <p class="navbar-text navbar-right">&copy; 2017 MAC, Inc.</p>
-                </nav>
+                </div>
+              <div class='col-lg-4'>
+                <p class="navbar-text navbar-right">&copy; 2017 MAC, Inc.</p>
+              </div>
+            </nav>
 
+          </div>
         </div>
-      </div>
-      </div>
-      </section>
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js '></script>
-      <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <script src='js/bootstrap.min.js '></script>
+    </div>
+    </section>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js '></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src='js/bootstrap.min.js '></script>
 </body>
 
 </html>
