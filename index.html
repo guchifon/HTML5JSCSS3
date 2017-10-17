@@ -40,195 +40,242 @@
     .navbar {
       margin-bottom: 0px;
     }
+
+    .jumbotron {
+      text-align: center;
+
+    }
+
+    .center-title {
+      text-align: center;
+      position: absolute;
+      font-size: 4em;
+      width: 100%;
+    }
+
+    .container {
+      width: 100%;
+    }
+
+    .container #headers p{
+      font-weight: bolder;
+      text-align: center;
+    }
+    .container #plans h2{
+      text-align: center;
+
+    }
+    .img-circle{
+     text-align: center;
+    }
+
+
   </style>
 
 </head>
 
 <body>
   <div class="container">
-    <nav class='navbar navbar-default navbar-static-top'>
-      <div id="nav">
-        <ul class='nav navbar-nav'>
-          <li>
-            <a href='#'>
-              <span class='glyphicon glyphicon-ice-lolly-tasted' aria-hidden='true'>FUNCY</span>
-            </a>
-          </li>
-          <li>
-            <a href='#'>Shop</a>
-          </li>
-          <li>
-            <a href='#'>Funcy</a>
-          </li>
-          <li>
-            <a href='#'>Pricing</a>
-          </li>
-          <li>
-            <a href='#'>Where</a>
-          </li>
-          <li>
-            <a href='#'>Contact</a>
-          </li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li>
-            <a href='#'>Sign In</a>
-          </li>
-        </ul>
+    <div class="row">
+      <nav class='navbar navbar-default navbar-static-top'>
+        <div id="nav">
+          <ul class='nav navbar-nav'>
+            <li>
+              <a href='#'>
+                <span class='glyphicon glyphicon-ice-lolly-tasted' aria-hidden='true'>FUNCY</span>
+              </a>
+            </li>
+            <li>
+              <a href='#'>Shop</a>
+            </li>
+            <li>
+              <a href='#'>Funcy</a>
+            </li>
+            <li>
+              <a href='#'>Pricing</a>
+            </li>
+            <li>
+              <a href='#'>Where</a>
+            </li>
+            <li>
+              <a href='#'>Contact</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href='#'>Sign In</a>
+            </li>
+          </ul>
 
-        </ul>
+          </ul>
+      </nav>
       </div>
-    </nav>
+    </div>
+    <!-- 
+    <div class="container">
+      <div class="row">
+        <div class="jumbotron">
+          <h1>Only Cool Things!</h1>
+        </div>
+      </div>
+    </div> -->
 
+    <div class="container" id="banner">
+      <div class="row">
+        <div class="col-lg-12 centered">
+          <h1 class="center-title" b>Only Cool Things!</h1>
+          <img width="100%" srcset='assets/images/banner-xs.png 375w, assets/images/banner-sm.png 768w, assets/images/banner-md.png 1024w, assets/images/banner-@2x.png 1536w'
+            src='assets/images/banner-lg.png'>
 
-
-    <div id="banner">
-
-      <img width="100%" srcset='assets/images/banner-xs.png 375w, assets/images/banner-sm.png 768w, assets/images/banner-md.png 1024w, assets/images/banner-@2x.png 1536w'
-        src='assets/images/banner-lg.png'>
-
-      <!--
-    <picture >
-      <source srcset='assets/images/banner-xs.png 375w, assets/images/banner-sm.png 768w' media='(min-width: 768px)'>
-      <source srcset='assets/images/banner-md.png 1024w, assets/images/banner-@2x.png 1536w' media='(min-width: 992px)'>
-      <img src='assets/images/banner-lg.png'>
-    </picture>
-  </div>
--->
-
-
-      <div class="col-lg-12 centered">
-
+          <!--
+        <picture >
+          <source srcset='assets/images/banner-xs.png 375w, assets/images/banner-sm.png 768w' media='(min-width: 768px)'>
+          <source srcset='assets/images/banner-md.png 1024w, assets/images/banner-@2x.png 1536w' media='(min-width: 992px)'>
+          <img src='assets/images/banner-lg.png'>
+        </picture>
+        </div>
+        -->
+        </div>
+      </div>
+      <div class="container">
         <div class='row' id="headers">
-          <div class='col-lg-4 '>
-            <img class='img-circle ' src='data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==' alt='
-      Generic placeholder image ' width='300 ' height='300 '>
+          <div class='col-lg-4'>
+            <img class='img-circle' src='https://dummyimage.com/300x300/c9c9c9/ffffff.png' alt='300x300'>
             <p>DLorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
-          <!-- /.col-lg-4 -->
           <div class='col-lg-4 '>
-            <img class='img-circle ' src='data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==' alt='
-      Generic placeholder image ' width='300 ' height='300 '>
+            <img class='img-circle ' src='https://dummyimage.com/300x300/c9c9c9/ffffff.png' alt='300x300'>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
-          <!-- /.col-lg-4 -->
-          <div class='col-lg-4 '>
-            <img class='img-circle ' src='data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==' alt='
-      Generic placeholder image ' width='300 ' height='300 '>
+          <div class='col-lg-4'>
+            <img class='img-circle ' src='https://dummyimage.com/300x300/c9c9c9/ffffff.png' alt='300x300'>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
           </div>
-          <!-- /.col-lg-4 -->
         </div>
-        <!-- /.row -->
 
+      </div>
 
-        <div class="container">
-
-          <!-- Three columns of text below the carousel -->
-          <div class="row">
-            <div class="col-lg-4">
-
-              <h2>PRO  PLAN</h2>
-              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-              <ul class="list-group">
-                <li class="list-group-item">asdasd</li>
-                <li class="list-group-item">asdasd</li>
-                <li class="list-group-item">asdasd</li>
-              </ul>
-              <p>
-                <button type="button" class="btn btn-primary btn-block disabled">BUY NOW!!!</button>
-              </p>
-            </div>
-            <!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-              <h2>DEV PLAN</h2>
-              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-              <ul class="list-group">
-                <li class="list-group-item">asdasd</li>
-                <li class="list-group-item">asdasd</li>
-                <li class="list-group-item">asdasd</li>
-              </ul>
-              <p>
-                <button type="button" class="btn btn-primary btn-block disabled">BUY NOW!!!</button>
-              </p>
-            </div>
-            <!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-              <h2>FREE PLAN</h2>
-              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-              <ul class="list-group">
-                <li class="list-group-item">asdasd</li>
-                <li class="list-group-item">asdasd</li>
-                <li class="list-group-item">asdasd</li>
-              </ul>
-              <p>
-                <button type="button" class="btn btn-primary btn-block disabled">BUY NOW!!!</button>
-              </p>
-            </div>
-            <!-- /.col-lg-4 -->
+      <div class="container">
+        <div class="row" id="plans">
+          <div class="col-lg-4">
+            <h2>PRO PLAN</h2>
+            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis
+              consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+            </p>
+            <ul class="list-group">
+              <li class="list-group-item">asdasd</li>
+              <li class="list-group-item">asdasd</li>
+              <li class="list-group-item">asdasd</li>
+            </ul>
+            <p>
+              <button type="button" class="btn btn-primary btn-block disabled">BUY NOW!!!</button>
+            </p>
           </div>
-          <!-- /.row -->
+          <div class="col-lg-4">
+            <h2>DEV PLAN</h2>
+            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis
+              consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+            </p>
+            <ul class="list-group">
+              <li class="list-group-item">asdasd</li>
+              <li class="list-group-item">asdasd</li>
+              <li class="list-group-item">asdasd</li>
+            </ul>
+            <p>
+              <button type="button" class="btn btn-primary btn-block disabled">BUY NOW!!!</button>
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <h2>FREE PLAN</h2>
+            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis
+              consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+            </p>
+            <ul class="list-group">
+              <li class="list-group-item">asdasd</li>
+              <li class="list-group-item">asdasd</li>
+              <li class="list-group-item">asdasd</li>
+            </ul>
+            <p>
+              <button type="button" class="btn btn-primary btn-block disabled">BUY NOW!!!</button>
+            </p>
+          </div>
+        </div>
+      </div>
 
-          <div class="row">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
             <iframe width="100%" height="500" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBgl9A7-rOJ-uiwXLg_3_4UEcM89H4Andw&q=40.505130099999995,-3.2524903"
               allowfullscreen>
             </iframe>
           </div>
-          <!-- /.row -->
+        </div>
+      </div>
 
-          <section id="formulario">
-            <div class="container">
-              <div class="row">
-                <form class="col-xs-12 col-lg-6 col-lg-offset-3">
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputFile">File input</label>
-                    <input type="file" id="exampleInputFile">
-                    <p class="help-block">Example block-level help text here.</p>
-                  </div>
-                  <div class="checkbox">
-                    <label>
-                      <input type="checkbox"> Check me out
-                    </label>
-                  </div>
-                  <div class="checkbox">
-                    <label>
-                      <input name="radio" type="radio"> Check me out
-                    </label>
-                  </div>
-                  <div class="checkbox">
-                    <label>
-                      <input name="radio" type="radio"> Check me out
-                    </label>
-                  </div>
-                  <div class="checkbox">
-                    <label>
-                      <input name="radio" type="radio"> Check me out
-                    </label>
-                  </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
+
+      <section id="formulario">
+        <div class="container">
+          <div class="row">
+            <form class="col-xs-12 col-lg-6 col-lg-offset-3">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
               </div>
-            </div>
-          </section>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputFile">File input</label>
+                <input type="file" id="exampleInputFile">
+                <p class="help-block">Example block-level help text here.</p>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"> Check me out
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input name="radio" type="radio"> Check me out
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input name="radio" type="radio"> Check me out
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input name="radio" type="radio"> Check me out
+                </label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
 
-
-          <footer class='footer '>
-            <p>&copy; 2017 MAC, Inc.</p>
-          </footer>
+      <section id="footer"></section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+              <nav class="navbar navbar-inverse">
+                  <ul class="nav navbar-nav">
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                  </ul>
+                  <p class="navbar-text">&copy; 2017 MAC, Inc.</p>
+                </nav>
 
         </div>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js '></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src='js/bootstrap.min.js '></script>
+      </div>
+      </div>
+      </section>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js '></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src='js/bootstrap.min.js '></script>
 </body>
 
 </html>
